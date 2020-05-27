@@ -19,5 +19,5 @@ while (i < nomb.length - 1) {
 }
 
 console.log(nomb);
-// encore quelque bug mais le resultat demandé est la ...
+// encore quelque bug mais le resultat demandé est la ... de l'aide est la bienvenue :)
 
