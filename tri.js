@@ -11,7 +11,7 @@ while (i < nomb.length - 1) {
     temp = nomb[i]
     nomb[i] = nomb[i + 1]
     nomb[i + 1] = temp
-    cond = false;
+    cond = true;
 
   }
   i++
@@ -19,5 +19,5 @@ while (i < nomb.length - 1) {
 }
 
 console.log(nomb);
-// encore quelque bug mais le resultat demandé est la ... de l'aide est la bienvenue :)
+
 
