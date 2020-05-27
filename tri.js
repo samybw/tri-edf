@@ -1,12 +1,16 @@
 var nombre = process.argv.slice(2);
 var nomb = nombre.map(Number);
-var resultat = []
+var resultat ;
 var i = 0;
-while (i < nomb.length) {
-  if (nomb[i] > nomb[i+1]) {
-    resultat += nomb.unshift(i)
+while (i < nomb.length - 1) {
+  if (nomb[i] < nomb[i + 1 ]) {
+    resultat = nomb[i]
+    nomb[i] = nomb[i + 1]
+    nomb[i + 1] = resultat
+
+
   }else{
-    resultat += nomb.push(i)
+    
   }
   i++
 }
